@@ -28,3 +28,14 @@
 **Fundamentos:**
 - Lógica de programação
 - Programação Orientada a Objetos (POO)
+
+## 📌 Projetos em destaque
+
+- 🔹 Sistema de Automação CAD (Frontend)  
+👉 https://automacao-cad-frontend.vercel.app/
+
+- 🔹 API de Usuários (CRUD completo)  
+👉 
+
+- 🔹 Sistema de Login  
+👉 
