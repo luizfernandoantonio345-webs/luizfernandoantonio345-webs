@@ -1,16 +1,30 @@
-## Hi there 👋
+## 🚀 Tecnologias
 
-<!--
-**luizfernandoantonio345-webs/luizfernandoantonio345-webs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Linguagens:**
+- Python
 
-Here are some ideas to get you started:
+**Backend:**
+- Flask
+- Desenvolvimento de APIs REST
+- Estruturação de aplicações backend
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Banco de Dados:**
+- SQLite
+- MySQL
+- Modelagem de dados
+- Operações CRUD
+
+**Autenticação e Segurança:**
+- JWT (em aprendizado e implementação prática)
+
+**Ferramentas:**
+- Git e GitHub
+- Versionamento de código
+
+**Outros conhecimentos:**
+- Deploy de aplicações (em aprendizado)
+- Construção de APIs mais completas (em evolução)
+
+**Fundamentos:**
+- Lógica de programação
+- Programação Orientada a Objetos (POO)
