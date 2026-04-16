@@ -2,6 +2,7 @@
 
 **Linguagens:**
 - Python
+- Java
 
 **Backend:**
 - Flask
