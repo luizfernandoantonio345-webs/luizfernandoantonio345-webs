@@ -1,53 +1,97 @@
-<h1 align="center">Luiz Fernando</h1>
-<p align="center"><b>Desenvolvedor Backend · Python / FastAPI</b><br>
-Sistemas multiempresa (multi-tenant) para indústria e serviços — do modelo de dados ao deploy.</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://instagram.com/luuiz.dev"><img src="https://img.shields.io/badge/@luuiz.dev-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram"></a>
-</p>
+# Luiz Fernando
+
+**Engenheiro de Software Backend · Python / FastAPI**
+
+Construo sistemas multiempresa para operações industriais — conformidade trabalhista,<br>
+controle de materiais e gestão de pessoas em campo — do modelo de dados ao deploy.
+
+[Instagram](https://instagram.com/luuiz.dev) · Belo Horizonte, MG · Engenharia de Software @ UniCesumar
+
+</div>
 
 ---
 
-### Sobre mim
+## Resumo
 
-- 🎓 Engenharia de Software na UniCesumar · Técnico em Informática
-- 🏭 Desenvolvo sistemas para clientes reais do setor industrial (ponto eletrônico, almoxarifado, RH)
-- 🔐 Estudando segurança de aplicações (AppSec) — autenticação, RBAC, auditoria e LGPD fazem parte de todo projeto
-- 📍 Belo Horizonte, MG
+Desenvolvo software para empresas prestadoras de serviço do setor industrial, onde erro de sistema
+vira passivo trabalhista ou material parado em obra. Meu foco é backend: APIs bem modeladas,
+isolamento de dados entre empresas clientes, trilhas de auditoria e integração com as obrigações
+legais brasileiras (Portaria MTP 671/2021, eSocial, LGPD).
 
-### Stack
+Os sistemas abaixo foram construídos para clientes reais e estão em uso ou em homologação.
 
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white">
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white">
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white">
-  <img src="https://img.shields.io/badge/Celery-37814A?style=flat&logo=celery&logoColor=white">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white">
-  <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white">
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white">
-</p>
+## Trabalhos selecionados
 
-**Backend:** APIs REST com FastAPI, SQLAlchemy, filas assíncronas (Celery + Redis), WebSockets
-**Segurança:** JWT com refresh token rotativo, RBAC, isolamento multi-tenant, 2FA, trilha de auditoria
-**Entrega:** Docker, testes automatizados, CI/CD, deploy em produção
+### .GRAMO — Ponto eletrônico corporativo (REP-P)
+[`repositório`](https://github.com/luizfernandoantonio345-webs/.Gramo)
 
-### Projetos em destaque
+Registro de ponto para trabalhadores de campo distribuídos em múltiplas obras, em conformidade
+com a Portaria MTP nº 671/2021.
 
-| Projeto | O que é | Stack |
-|---|---|---|
-| [**.GRAMO**](https://github.com/luizfernandoantonio345-webs/.Gramo) | Ponto eletrônico corporativo (REP-P, Portaria 671/2021) com app do colaborador, central de RH com 2FA, exportações AFD/AEJ e arquitetura multiempresa | TypeScript · FastAPI · PostgreSQL |
-| [**GWI · Gestão de Materiais**](https://github.com/luizfernandoantonio345-webs/gwi-materiais-backend) | Almoxarifado industrial: entrada de estoque, consumíveis, posição de estoque e fluxo de compras com notificações · [demo](https://gwi-frontend.vercel.app) | Python · FastAPI · React |
-| [**Açaí Delivery**](https://github.com/luizfernandoantonio345-webs/acai-da-patricia) | Pedido digital via QR code com pagamento Pix e painel da cozinha em tempo real · [demo](https://a-a-da-patr-cia.vercel.app) | TypeScript · FastAPI · WebSocket |
-| [**Automação CAD**](https://github.com/luizfernandoantonio345-webs/Automacao-CAD) | Automação de projetos de tubulação industrial (piping) | Python |
+- Registro com geolocalização por obra e operação offline, sincronizando ao reconectar
+- Central de RH com 2FA, fila de exceções, assinatura digital de espelho de ponto e auditoria
+- Geração dos arquivos legais **AFD** e **AEJ** e integração com folha / eSocial
+- Arquitetura em três camadas de acesso — colaborador, empresa cliente e operador da plataforma —
+  com o operador **sem acesso a dados operacionais** das empresas
+- Em processo de registro como programa de computador no INPI
 
-### Em andamento
+### GWI — Gestão de Materiais e Almoxarifado
+[`backend`](https://github.com/luizfernandoantonio345-webs/gwi-materiais-backend) · [`frontend`](https://github.com/luizfernandoantonio345-webs/gwi-frontend) · [`demo`](https://gwi-frontend.vercel.app)
 
-- **WorkFlow RH** — SaaS B2B de RH para terceirizadas industriais (eSocial, NR-1, LGPD) · FastAPI, PostgreSQL, Redis, Celery, React Native
-- **JARVIS** — assistente de IA pessoal com arquitetura multiagente, LLM local via Ollama e módulo de segurança (SAST + threat intel)
+Módulo da plataforma GWI que substitui um fluxo manual de almoxarifado de obra.
 
-<p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=luizfernandoantonio345-webs&show_icons=true&hide_border=true&theme=transparent">
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=luizfernandoantonio345-webs&layout=compact&hide_border=true&theme=transparent">
-</p>
+- Entrada de estoque, controle de consumíveis e posição de estoque em tempo real
+- Cálculo de necessidade de compra e fluxo de compras com notificações
+- API REST em FastAPI · PostgreSQL · frontend em React
+
+### Pedido digital com Pix — rede de açaiterias
+[`repositório`](https://github.com/luizfernandoantonio345-webs/acai-da-patricia) · [`demo`](https://a-a-da-patr-cia.vercel.app)
+
+Cliente pede pelo QR code da mesa, paga via Pix e o pedido chega na cozinha sem intermediário.
+
+- Painel de cozinha em tempo real via **WebSocket**
+- Estrutura multiloja (multi-tenant) para expansão da rede
+- FastAPI · PostgreSQL · TypeScript
+
+### Automação CAD — tubulação industrial
+[`repositório`](https://github.com/luizfernandoantonio345-webs/Automacao-CAD)
+
+Automação de tarefas repetitivas em projetos de piping industrial, em Python.
+
+## Em desenvolvimento
+
+**WorkFlow RH** — SaaS B2B de gestão de pessoas para terceirizadas industriais: coleta de dados,
+distribuição de documentos, jornada e conformidade (eSocial S-1.3, NR-1 riscos psicossociais, LGPD).
+Arquitetura de segurança em camadas: Argon2id, refresh tokens rotativos, RBAC com isolamento de
+tenant na camada de ORM, criptografia de campos pessoais e log de auditoria imutável.
+<sub>FastAPI · PostgreSQL · Redis · Celery · React · React Native</sub>
+
+**JARVIS** — assistente de IA executado localmente, com arquitetura multiagente
+(Planner / Executor / Critic / Memory), inferência via Ollama e um módulo de segurança com
+análise estática (SAST), threat intelligence e mapeamento MITRE ATT&CK.
+<sub>FastAPI · React · TypeScript · Ollama</sub>
+
+## Como eu trabalho
+
+- **Modelagem antes de código.** O esquema de dados e as fronteiras entre tenants são decididos primeiro;
+  o resto do sistema segue deles.
+- **Segurança é requisito, não fase.** Autenticação, autorização e auditoria entram na primeira sprint.
+- **A regra de negócio vem da lei.** Em sistemas trabalhistas, a portaria é a especificação.
+- **Entrega completa.** Documentação técnica, testes automatizados, containers e pipeline de deploy.
+
+## Stack
+
+| | |
+|---|---|
+| **Linguagens** | Python · TypeScript · SQL |
+| **Backend** | FastAPI · SQLAlchemy · Celery · WebSockets · APIs REST |
+| **Dados** | PostgreSQL · Redis |
+| **Segurança** | JWT com rotação de refresh token · RBAC · 2FA · Argon2id · multi-tenancy |
+| **Frontend** | React · React Native |
+| **Infra** | Docker · GitHub Actions · Vercel |
+
+## Estudando agora
+
+Segurança de aplicações (PortSwigger Web Security Academy), estruturas de dados e algoritmos, e inglês técnico.
