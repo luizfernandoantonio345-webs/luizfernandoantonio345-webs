@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://gwi-frontend.vercel.app"><img src="https://img.shields.io/badge/Demo-GWI_Materiais-22D3A6?style=for-the-badge&logo=vercel&logoColor=white"></a>
-  <a href="https://a-a-da-patr-cia.vercel.app"><img src="https://img.shields.io/badge/Demo-Pedido_com_Pix-3B82F6?style=for-the-badge&logo=vercel&logoColor=white"></a>
+  <a href="https://a-a-da-patr-cia.vercel.app"><img src="https://img.shields.io/badge/Demo-Comanda_Digital-3B82F6?style=for-the-badge&logo=vercel&logoColor=white"></a>
   <a href="https://instagram.com/luuiz.dev"><img src="https://img.shields.io/badge/@luuiz.dev-111C33?style=for-the-badge&logo=instagram&logoColor=white"></a>
 </p>
 
@@ -17,16 +17,16 @@ onde o software precisa cumprir a lei trabalhista e funcionar no canteiro de obr
 - 🏗️ **Sistemas em produção** para a GRAMO Engenharia: ponto eletrônico e gestão de materiais
 - ⚖️ **Conformidade legal como código**: Portaria MTP 671/2021 (REP-P), eSocial, LGPD
 - 🔐 **Segurança desde o primeiro commit**: 2FA, RBAC, isolamento de dados por empresa, auditoria
-- 🚀 **Ponta a ponta**: Docker, testes automatizados, CI/CD e deploy
+- 🚀 **Ponta a ponta**: modelagem, migrações, testes automatizados, Docker e deploy
 - 🎓 Engenharia de Software · UniCesumar
 
 ## Stack
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python,fastapi,postgres,redis,docker,githubactions,react,ts,git,linux&perline=10" alt="Python, FastAPI, PostgreSQL, Redis, Docker, GitHub Actions, React, TypeScript, Git, Linux">
+  <img src="https://skillicons.dev/icons?i=python,fastapi,postgres,redis,docker,react,nextjs,ts,supabase,git,linux&perline=11" alt="Python, FastAPI, PostgreSQL, Redis, Docker, React, Next.js, TypeScript, Supabase, Git, Linux">
 </p>
 
-`SQLAlchemy` `Celery` `WebSockets` `JWT` `RBAC` `2FA` `Argon2id` `Multi-tenancy` `REST APIs` `React Native`
+`SQLAlchemy 2 async` `Alembic` `Pytest` `Celery` `WebSockets` `JWT` `RBAC` `MFA/TOTP` `Row Level Security` `Multi-tenancy` `REST APIs`
 
 ## Projetos
 
@@ -49,12 +49,13 @@ Controle de jornada para equipes de campo em várias obras, em conformidade com 
 <td width="50%" valign="top">
 
 ### 📦 GWI — Gestão de Materiais
-Criado para substituir o controle manual do almoxarifado de obra da GRAMO Engenharia.
+Almoxarifado de obra da GRAMO Engenharia: requisição, aprovação por alçada, compra, baixa por QR Code e comodato.
 
-- Entrada de estoque e controle de consumíveis
-- Posição de estoque e necessidade de compra
-- Fluxo de compras com notificações
-- **FastAPI · PostgreSQL · React**
+- **Kardex à prova de adulteração** com hash SHA-256 encadeado
+- Reserva de saldo + locking otimista: **sem condição de corrida** no estoque
+- JWT com rotação e detecção de reuso, **MFA**, RBAC por alçada
+- **45 endpoints · 62 testes** (incluindo testes de ataque)
+- **FastAPI · SQLAlchemy async · PostgreSQL · React PWA**
 
 [Demo →](https://gwi-frontend.vercel.app) · [API →](https://github.com/luizfernandoantonio345-webs/gwi-materiais-backend) · [Frontend →](https://github.com/luizfernandoantonio345-webs/gwi-frontend)
 
@@ -63,12 +64,13 @@ Criado para substituir o controle manual do almoxarifado de obra da GRAMO Engenh
 <tr>
 <td width="50%" valign="top">
 
-### 🧾 Pedido Digital com Pix
-Cliente pede pelo QR code da mesa, paga no Pix e o pedido cai direto na cozinha.
+### 🧾 Comanda Digital — Açaiteria
+Cliente escaneia o QR da mesa, monta o açaí no celular e o pedido aparece na hora no balcão.
 
-- Painel da cozinha em **tempo real (WebSocket)**
-- Preparado para **várias lojas** da rede
-- **FastAPI · PostgreSQL · TypeScript**
+- Balcão atualizado em **tempo real** (Supabase Realtime) com aviso sonoro
+- Acesso controlado no banco com **Row Level Security**
+- Painel da dona: preços, esgotados e impressão dos QR
+- **Next.js · TypeScript · Supabase (Postgres) · Tailwind**
 
 [Demo →](https://a-a-da-patr-cia.vercel.app) · [Repositório →](https://github.com/luizfernandoantonio345-webs/acai-da-patricia)
 
