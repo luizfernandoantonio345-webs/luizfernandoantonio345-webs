@@ -1,97 +1,107 @@
-<div align="center">
+<p align="center">
+  <img src="assets/banner.svg" alt="Luiz Fernando — Desenvolvedor Backend Python / FastAPI" width="100%">
+</p>
 
-# Luiz Fernando
+<p align="center">
+  <a href="https://gwi-frontend.vercel.app"><img src="https://img.shields.io/badge/Demo-GWI_Materiais-22D3A6?style=for-the-badge&logo=vercel&logoColor=white"></a>
+  <a href="https://a-a-da-patr-cia.vercel.app"><img src="https://img.shields.io/badge/Demo-Pedido_com_Pix-3B82F6?style=for-the-badge&logo=vercel&logoColor=white"></a>
+  <a href="https://instagram.com/luuiz.dev"><img src="https://img.shields.io/badge/@luuiz.dev-111C33?style=for-the-badge&logo=instagram&logoColor=white"></a>
+</p>
 
-**Engenheiro de Software Backend · Python / FastAPI**
+## Em resumo
 
-Construo sistemas multiempresa para operações industriais — conformidade trabalhista,<br>
-controle de materiais e gestão de pessoas em campo — do modelo de dados ao deploy.
+Desenvolvedor backend que **entrega sistemas completos para clientes reais**: arquitetura, API, banco de dados,
+segurança, testes, containers e deploy. Especializado em **SaaS multi-tenant** para o setor industrial,
+onde o software precisa cumprir a lei trabalhista e funcionar no canteiro de obra.
 
-[Instagram](https://instagram.com/luuiz.dev) · Belo Horizonte, MG · Engenharia de Software @ UniCesumar
-
-</div>
-
----
-
-## Resumo
-
-Desenvolvo software para empresas prestadoras de serviço do setor industrial, onde erro de sistema
-vira passivo trabalhista ou material parado em obra. Meu foco é backend: APIs bem modeladas,
-isolamento de dados entre empresas clientes, trilhas de auditoria e integração com as obrigações
-legais brasileiras (Portaria MTP 671/2021, eSocial, LGPD).
-
-Os sistemas abaixo foram construídos para clientes reais e estão em uso ou em homologação.
-
-## Trabalhos selecionados
-
-### .GRAMO — Ponto eletrônico corporativo (REP-P)
-[`repositório`](https://github.com/luizfernandoantonio345-webs/.Gramo)
-
-Registro de ponto para trabalhadores de campo distribuídos em múltiplas obras, em conformidade
-com a Portaria MTP nº 671/2021.
-
-- Registro com geolocalização por obra e operação offline, sincronizando ao reconectar
-- Central de RH com 2FA, fila de exceções, assinatura digital de espelho de ponto e auditoria
-- Geração dos arquivos legais **AFD** e **AEJ** e integração com folha / eSocial
-- Arquitetura em três camadas de acesso — colaborador, empresa cliente e operador da plataforma —
-  com o operador **sem acesso a dados operacionais** das empresas
-- Em processo de registro como programa de computador no INPI
-
-### GWI — Gestão de Materiais e Almoxarifado
-[`backend`](https://github.com/luizfernandoantonio345-webs/gwi-materiais-backend) · [`frontend`](https://github.com/luizfernandoantonio345-webs/gwi-frontend) · [`demo`](https://gwi-frontend.vercel.app)
-
-Módulo da plataforma GWI que substitui um fluxo manual de almoxarifado de obra.
-
-- Entrada de estoque, controle de consumíveis e posição de estoque em tempo real
-- Cálculo de necessidade de compra e fluxo de compras com notificações
-- API REST em FastAPI · PostgreSQL · frontend em React
-
-### Pedido digital com Pix — rede de açaiterias
-[`repositório`](https://github.com/luizfernandoantonio345-webs/acai-da-patricia) · [`demo`](https://a-a-da-patr-cia.vercel.app)
-
-Cliente pede pelo QR code da mesa, paga via Pix e o pedido chega na cozinha sem intermediário.
-
-- Painel de cozinha em tempo real via **WebSocket**
-- Estrutura multiloja (multi-tenant) para expansão da rede
-- FastAPI · PostgreSQL · TypeScript
-
-### Automação CAD — tubulação industrial
-[`repositório`](https://github.com/luizfernandoantonio345-webs/Automacao-CAD)
-
-Automação de tarefas repetitivas em projetos de piping industrial, em Python.
-
-## Em desenvolvimento
-
-**WorkFlow RH** — SaaS B2B de gestão de pessoas para terceirizadas industriais: coleta de dados,
-distribuição de documentos, jornada e conformidade (eSocial S-1.3, NR-1 riscos psicossociais, LGPD).
-Arquitetura de segurança em camadas: Argon2id, refresh tokens rotativos, RBAC com isolamento de
-tenant na camada de ORM, criptografia de campos pessoais e log de auditoria imutável.
-<sub>FastAPI · PostgreSQL · Redis · Celery · React · React Native</sub>
-
-**JARVIS** — assistente de IA executado localmente, com arquitetura multiagente
-(Planner / Executor / Critic / Memory), inferência via Ollama e um módulo de segurança com
-análise estática (SAST), threat intelligence e mapeamento MITRE ATT&CK.
-<sub>FastAPI · React · TypeScript · Ollama</sub>
-
-## Como eu trabalho
-
-- **Modelagem antes de código.** O esquema de dados e as fronteiras entre tenants são decididos primeiro;
-  o resto do sistema segue deles.
-- **Segurança é requisito, não fase.** Autenticação, autorização e auditoria entram na primeira sprint.
-- **A regra de negócio vem da lei.** Em sistemas trabalhistas, a portaria é a especificação.
-- **Entrega completa.** Documentação técnica, testes automatizados, containers e pipeline de deploy.
+- 🏗️ **Sistemas em produção** para a GRAMO Engenharia: ponto eletrônico e gestão de materiais
+- ⚖️ **Conformidade legal como código**: Portaria MTP 671/2021 (REP-P), eSocial, LGPD
+- 🔐 **Segurança desde o primeiro commit**: 2FA, RBAC, isolamento de dados por empresa, auditoria
+- 🚀 **Ponta a ponta**: Docker, testes automatizados, CI/CD e deploy
+- 🎓 Engenharia de Software · UniCesumar
 
 ## Stack
 
-| | |
-|---|---|
-| **Linguagens** | Python · TypeScript · SQL |
-| **Backend** | FastAPI · SQLAlchemy · Celery · WebSockets · APIs REST |
-| **Dados** | PostgreSQL · Redis |
-| **Segurança** | JWT com rotação de refresh token · RBAC · 2FA · Argon2id · multi-tenancy |
-| **Frontend** | React · React Native |
-| **Infra** | Docker · GitHub Actions · Vercel |
+<p>
+  <img src="https://skillicons.dev/icons?i=python,fastapi,postgres,redis,docker,githubactions,react,ts,git,linux&perline=10" alt="Python, FastAPI, PostgreSQL, Redis, Docker, GitHub Actions, React, TypeScript, Git, Linux">
+</p>
+
+`SQLAlchemy` `Celery` `WebSockets` `JWT` `RBAC` `2FA` `Argon2id` `Multi-tenancy` `REST APIs` `React Native`
+
+## Projetos
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### ⏱️ .GRAMO — Ponto Eletrônico REP-P
+Controle de jornada para equipes de campo em várias obras, em conformidade com a **Portaria 671/2021**.
+
+- Registro com geolocalização e **modo offline**
+- Painel de RH com 2FA, auditoria e assinatura digital
+- Exporta os arquivos legais **AFD / AEJ**
+- Plataforma multiempresa: o operador **não vê dados** dos clientes
+- Registro no **INPI** em andamento
+
+[Repositório →](https://github.com/luizfernandoantonio345-webs/.Gramo)
+
+</td>
+<td width="50%" valign="top">
+
+### 📦 GWI — Gestão de Materiais
+Criado para substituir o controle manual do almoxarifado de obra da GRAMO Engenharia.
+
+- Entrada de estoque e controle de consumíveis
+- Posição de estoque e necessidade de compra
+- Fluxo de compras com notificações
+- **FastAPI · PostgreSQL · React**
+
+[Demo →](https://gwi-frontend.vercel.app) · [API →](https://github.com/luizfernandoantonio345-webs/gwi-materiais-backend) · [Frontend →](https://github.com/luizfernandoantonio345-webs/gwi-frontend)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🧾 Pedido Digital com Pix
+Cliente pede pelo QR code da mesa, paga no Pix e o pedido cai direto na cozinha.
+
+- Painel da cozinha em **tempo real (WebSocket)**
+- Preparado para **várias lojas** da rede
+- **FastAPI · PostgreSQL · TypeScript**
+
+[Demo →](https://a-a-da-patr-cia.vercel.app) · [Repositório →](https://github.com/luizfernandoantonio345-webs/acai-da-patricia)
+
+</td>
+<td width="50%" valign="top">
+
+### 👷 WorkFlow RH <sub>em desenvolvimento</sub>
+SaaS B2B de RH para terceirizadas do setor industrial.
+
+- eSocial, NR-1 (riscos psicossociais) e LGPD
+- Argon2id, refresh token rotativo, dados pessoais criptografados
+- Isolamento de empresas na camada de ORM
+- **FastAPI · PostgreSQL · Redis · Celery · React Native**
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>Outros projetos</b></summary>
+<br>
+
+- **JARVIS** — assistente de IA local com múltiplos agentes (planejador, executor, crítico, memória), LLM via Ollama e módulo de segurança com análise estática e mapeamento MITRE ATT&CK
+- **[Automação CAD](https://github.com/luizfernandoantonio345-webs/Automacao-CAD)** — automação de projetos de tubulação industrial em Python
+- **[Unir Soldas](https://unir-soldas.vercel.app)** — site institucional para empresa de soldagem
+
+</details>
 
 ## Estudando agora
 
-Segurança de aplicações (PortSwigger Web Security Academy), estruturas de dados e algoritmos, e inglês técnico.
+Segurança de aplicações (PortSwigger Web Security Academy) · Algoritmos e estruturas de dados · Inglês técnico
+
+---
+
+<p align="center"><b>Procurando um dev backend Python que entende a operação do cliente?</b><br>
+Fale comigo pelo <a href="https://instagram.com/luuiz.dev">Instagram</a>.</p>
