@@ -5,6 +5,7 @@
 <p align="center">
   <a href="https://gwi-frontend.vercel.app"><img src="https://img.shields.io/badge/Demo-GWI_Materiais-22D3A6?style=for-the-badge&logo=vercel&logoColor=white"></a>
   <a href="https://a-a-da-patr-cia.vercel.app"><img src="https://img.shields.io/badge/Demo-Comanda_Digital-3B82F6?style=for-the-badge&logo=vercel&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/luizfernando-dev/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="https://instagram.com/luuiz.dev"><img src="https://img.shields.io/badge/@luuiz.dev-111C33?style=for-the-badge&logo=instagram&logoColor=white"></a>
 </p>
 
@@ -106,4 +107,4 @@ Segurança de aplicações (PortSwigger Web Security Academy) · Algoritmos e es
 ---
 
 <p align="center"><b>Procurando um dev backend Python que entende a operação do cliente?</b><br>
-Fale comigo pelo <a href="https://instagram.com/luuiz.dev">Instagram</a>.</p>
+Fale comigo pelo <a href="https://www.linkedin.com/in/luizfernando-dev/">LinkedIn</a>.</p>
