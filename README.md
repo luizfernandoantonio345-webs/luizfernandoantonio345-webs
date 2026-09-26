@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Luiz Fernando — Desenvolvedor Backend Python / FastAPI" width="100%">
+  <img src="assets/banner.svg" alt="Luiz Fernando — Desenvolvedor Backend Python e TypeScript" width="100%">
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@ onde o software precisa cumprir a lei trabalhista e funcionar no canteiro de obr
 ## Stack
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python,fastapi,postgres,redis,docker,react,nextjs,ts,supabase,git,linux&perline=11" alt="Python, FastAPI, PostgreSQL, Redis, Docker, React, Next.js, TypeScript, Supabase, Git, Linux">
+  <img src="https://skillicons.dev/icons?i=python,fastapi,ts,nodejs,nestjs,postgres,prisma,redis,docker,react,nextjs,supabase&perline=12" alt="Python, FastAPI, TypeScript, Node.js, NestJS, PostgreSQL, Prisma, Redis, Docker, React, Next.js, Supabase">
 </p>
 
 `SQLAlchemy 2 async` `Alembic` `Pytest` `Celery` `WebSockets` `JWT` `RBAC` `MFA/TOTP` `Row Level Security` `Multi-tenancy` `REST APIs`
@@ -37,13 +37,13 @@ onde o software precisa cumprir a lei trabalhista e funcionar no canteiro de obr
 ### ⏱️ .GRAMO — Ponto Eletrônico REP-P
 Controle de jornada para equipes de campo em várias obras, em conformidade com a **Portaria 671/2021**.
 
-- Registro com geolocalização e **modo offline**
-- Painel de RH com 2FA, auditoria e assinatura digital
-- Exporta os arquivos legais **AFD / AEJ**
-- Plataforma multiempresa: o operador **não vê dados** dos clientes
-- Registro no **INPI** em andamento
+- Ponto com **reconhecimento facial + GPS**, funciona **offline**
+- Isolamento entre empresas com **Row Level Security** no PostgreSQL
+- Registros imutáveis, assinatura **Ed25519**, arquivos legais **AFD / AEJ**
+- Operador da plataforma **sem acesso** aos dados dos clientes
+- **NestJS · Prisma · PostgreSQL · React PWA** · registro no INPI em andamento
 
-[Repositório →](https://github.com/luizfernandoantonio345-webs/.Gramo)
+[Repositório →](https://github.com/luizfernandoantonio345-webs/gramo-ponto)
 
 </td>
 <td width="50%" valign="top">
