@@ -15,7 +15,7 @@ Desenvolvedor backend que **entrega sistemas completos para clientes reais**: ar
 segurança, testes, containers e deploy. Especializado em **SaaS multi-tenant** para o setor industrial,
 onde o software precisa cumprir a lei trabalhista e funcionar no canteiro de obra.
 
-- 🏗️ **Sistemas em produção** para a GRAMO Engenharia: ponto eletrônico e gestão de materiais
+- 🏗️ **Projetos autorais de back-end:** ponto eletrônico REP-P multiempresa e gestão de materiais
 - ⚖️ **Conformidade legal como código**: Portaria MTP 671/2021 (REP-P), eSocial, LGPD
 - 🔐 **Segurança desde o primeiro commit**: 2FA, RBAC, isolamento de dados por empresa, auditoria
 - 🚀 **Ponta a ponta**: modelagem, migrações, testes automatizados, Docker e deploy
@@ -35,7 +35,7 @@ onde o software precisa cumprir a lei trabalhista e funcionar no canteiro de obr
 <tr>
 <td width="50%" valign="top">
 
-### ⏱️ .GRAMO — Ponto Eletrônico REP-P
+### ⏱️ Ponto Eletrônico REP-P
 Controle de jornada para equipes de campo em várias obras, em conformidade com a **Portaria 671/2021**.
 
 - Ponto com **reconhecimento facial + GPS**, funciona **offline**
@@ -44,13 +44,13 @@ Controle de jornada para equipes de campo em várias obras, em conformidade com 
 - Operador da plataforma **sem acesso** aos dados dos clientes
 - **NestJS · Prisma · PostgreSQL · React PWA** · registro no INPI em andamento
 
-[Repositório →](https://github.com/luizfernandoantonio345-webs/gramo-ponto)
+[Repositório →](https://github.com/luizfernandoantonio345-webs/ponto-eletronico-rep-p)
 
 </td>
 <td width="50%" valign="top">
 
-### 📦 GWI — Gestão de Materiais
-Almoxarifado de obra da GRAMO Engenharia: requisição, aprovação por alçada, compra, baixa por QR Code e comodato.
+### 📦 Gestão de Materiais
+Almoxarifado de obras: requisição, aprovação por alçada, compra, baixa por QR Code e comodato.
 
 - **Kardex à prova de adulteração** com hash SHA-256 encadeado
 - Reserva de saldo + locking otimista: **sem condição de corrida** no estoque
@@ -58,7 +58,7 @@ Almoxarifado de obra da GRAMO Engenharia: requisição, aprovação por alçada,
 - **45 endpoints · 62 testes** (incluindo testes de ataque)
 - **FastAPI · SQLAlchemy async · PostgreSQL · React PWA**
 
-[Demo →](https://gwi-frontend.vercel.app) · [API →](https://github.com/luizfernandoantonio345-webs/gwi-materiais-backend) · [Frontend →](https://github.com/luizfernandoantonio345-webs/gwi-frontend)
+[Demo →](https://gwi-frontend.vercel.app) · [API →](https://github.com/luizfernandoantonio345-webs/gestao-materiais-api) · [Frontend →](https://github.com/luizfernandoantonio345-webs/gestao-materiais-web)
 
 </td>
 </tr>
